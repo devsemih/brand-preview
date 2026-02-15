@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>BrandScope - Social Media Brand Preview & Username Checker</title>
+<title>BrandPreview - Social Media Brand Preview & Username Checker</title>
 <meta name="description" content="Preview how your brand looks across Instagram, TikTok, X, YouTube, Threads and LinkedIn. Check username availability instantly.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -336,20 +336,18 @@ body::before{content:'';position:fixed;inset:0;opacity:0.03;pointer-events:none;
   <!-- LEFT SIDEBAR -->
   <aside class="sidebar">
     <div class="sidebar-header">
-      <h1>Brand<span>Scope</span></h1>
+      <h1>Brand<span>Preview</span></h1>
       <p>Preview your brand across social media</p>
     </div>
 
     <div class="sidebar-section">
       <div class="sidebar-section-title">Brand Details</div>
       <div class="fields">
-        <div class="field"><label>Brand Name</label><input type="text" id="brandName" placeholder="The Grand Invite" value="The Grand Invite"></div>
-        <div class="field"><label>Username</label><input type="text" id="username" placeholder="thegrandinvite" value="thegrandinvite"></div>
-        <div class="field full"><label>Bio</label><textarea id="bioText" rows="2" placeholder="Your brand description...">Premium invitation &amp; event services &#10024;
-Worldwide shipping &#128230;
-hello@thegrandinvite.com</textarea></div>
-        <div class="field"><label>Category</label><input type="text" id="category" placeholder="Invitations & Stationery" value="Invitations &amp; Stationery"></div>
-        <div class="field"><label>Website</label><input type="text" id="website" placeholder="thegrandinvite.com" value="thegrandinvite.com"></div>
+        <div class="field"><label>Brand Name</label><input type="text" id="brandName" placeholder="The Grand Invite"></div>
+        <div class="field"><label>Username</label><input type="text" id="username" placeholder="thegrandinvite"></div>
+        <div class="field full"><label>Bio</label><textarea id="bioText" rows="2" placeholder="Your brand description..."></textarea></div>
+        <div class="field"><label>Category</label><input type="text" id="category" placeholder="Invitations & Stationery"></div>
+        <div class="field"><label>Website</label><input type="text" id="website" placeholder="thegrandinvite.com"></div>
       </div>
       <div class="logo-row" onclick="document.getElementById('logoInput').click()" style="margin-top:12px;">
         <div class="logo-circle" id="logoPreview"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4"/></svg></div>
@@ -374,7 +372,7 @@ hello@thegrandinvite.com</textarea></div>
     <div class="sidebar-section">
       <div class="sidebar-section-title">Username Availability</div>
       <div class="avail-search">
-        <input type="text" id="checkName" value="thegrandinvite" placeholder="enter username...">
+        <input type="text" id="checkName" placeholder="enter username...">
         <button onclick="runAvailabilityCheck()">Check</button>
       </div>
       <div class="avail-summary-bar" id="availSummary"></div>

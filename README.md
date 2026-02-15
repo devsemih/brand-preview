@@ -1,6 +1,6 @@
 <div align="center">
 
-# BrandScope
+# BrandPreview
 
 **Free, open-source social media mockup generator and brand name preview tool.**
 
@@ -18,9 +18,9 @@ Preview how your brand looks across Instagram, TikTok, X/Twitter, YouTube, Threa
 
 ---
 
-## What is BrandScope?
+## What is BrandPreview?
 
-**BrandScope** is a free, single-page web tool that generates **realistic social media profile mockups** for your brand. Whether you are launching a new startup, renaming a company, or brainstorming side-project ideas, BrandScope lets you instantly visualize how your brand name, username, bio, and logo will appear across six major social media platforms.
+**BrandPreview** is a free, single-page web tool that generates **realistic social media profile mockups** for your brand. Whether you are launching a new startup, renaming a company, or brainstorming side-project ideas, BrandPreview lets you instantly visualize how your brand name, username, bio, and logo will appear across six major social media platforms.
 
 It also includes a built-in **username availability checker** so you can verify whether your desired handle is already taken — before you commit to a name.
 
@@ -45,17 +45,13 @@ No sign-up. No backend. No dependencies. Just open the page and start previewing
 
 ## Screenshots
 
-> Screenshots will be added here. Contributions welcome!
-
-| Social Media Mockups | Username Checker | Configuration Panel |
-|:---:|:---:|:---:|
-| *Coming soon* | *Coming soon* | *Coming soon* |
+![BrandPreview Screenshot](screenshot.png)
 
 ---
 
 ## Live Demo
 
-Try BrandScope right now — no installation required:
+Try BrandPreview right now — no installation required:
 
 **[https://devsemih.github.io/brand-preview](https://devsemih.github.io/brand-preview)**
 
@@ -75,7 +71,7 @@ Try BrandScope right now — no installation required:
 
 ### Local / Offline
 
-Since BrandScope is a single HTML file with zero dependencies, you can run it locally:
+Since BrandPreview is a single HTML file with zero dependencies, you can run it locally:
 
 ```bash
 git clone https://github.com/devsemih/brand-preview.git
@@ -112,7 +108,7 @@ Or simply download `index.html` and open it in any modern browser. That is it �
 | Hosting | GitHub Pages |
 | Dependencies | **None** |
 
-BrandScope is intentionally built as a **single self-contained HTML file** with no external JavaScript libraries, no CSS frameworks, and no build tools. This keeps it fast, portable, and easy to fork or modify.
+BrandPreview is intentionally built as a **single self-contained HTML file** with no external JavaScript libraries, no CSS frameworks, and no build tools. This keeps it fast, portable, and easy to fork or modify.
 
 ---
 
@@ -164,7 +160,7 @@ You are free to use, modify, and distribute this tool for personal and commercia
 
 <div align="center">
 
-**If you find BrandScope useful, consider giving it a star!**
+**If you find BrandPreview useful, consider giving it a star!**
 
 [![GitHub Stars](https://img.shields.io/github/stars/devsemih/brand-preview?style=social)](https://github.com/devsemih/brand-preview)
 
