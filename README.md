@@ -14,6 +14,8 @@ Preview how your brand looks across Instagram, TikTok, X/Twitter, YouTube, Threa
 
 [Live Demo](https://devsemih.github.io/brand-preview) | [Report Bug](https://github.com/devsemih/brand-preview/issues) | [Request Feature](https://github.com/devsemih/brand-preview/issues)
 
+![BrandPreview Screenshot](screenshot.png)
+
 </div>
 
 ---
@@ -45,7 +47,7 @@ No sign-up. No backend. No dependencies. Just open the page and start previewing
 
 ## Screenshots
 
-![BrandPreview Screenshot](screenshot.png)
+> See the screenshot at the top of this page.
 
 ---
 
